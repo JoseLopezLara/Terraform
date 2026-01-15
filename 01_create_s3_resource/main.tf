@@ -11,12 +11,12 @@ resource "aws_s3_bucket_versioning" "bucket_s3_versioning_name" {
     }
 }
 
-/*resource "aws_s3_bucket_public_access_block" "name" {
+resource "aws_s3_bucket_public_access_block" "name" {
   bucket = aws_s3_bucket.bucket_s3_resource.id
   
   block_public_acls       = true
   block_public_policy     = true
   ignore_public_acls      = true
   restrict_public_buckets = true
-}*/
+}
 
