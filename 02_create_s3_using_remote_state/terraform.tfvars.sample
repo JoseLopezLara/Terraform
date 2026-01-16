@@ -1,0 +1,7 @@
+remote_state_bucket = "REPLACE USING THE NAME OF THE BUCKET WHERE YOU WILL SAVE THE REMOTE STATE FILE"
+aws_region = "AWS-REGION"
+bucket_name = "BUCKET-NAME"
+tags = {
+  "Enviroment" = "ENVIROMENT-WHERE-WILL-PLACE-THE-BUCKET"
+  "Owner" = "BUCKET-OWNER"
+}
